@@ -18,7 +18,7 @@ set_character_option()
         {
             case 1:
                 self setmodel( "c_zom_player_farmgirl_fb" );
-                self.voice = "american";
+                self.voice = "farmgirl";
                 self.skeleton = "base";
                 self setviewmodel( "c_zom_farmgirl_viewhands" );
                 level.vox maps\mp\zombies\_zm_audio::zmbvoxinitspeaker( "player", "vox_plr_", self );
@@ -28,7 +28,7 @@ set_character_option()
             break;
             case 2:
                 self setmodel( "c_zom_player_oldman_fb" );
-                self.voice = "american";
+                self.voice = "oldman";
                 self.skeleton = "base";
                 self setviewmodel( "c_zom_oldman_viewhands" );
                 level.vox maps\mp\zombies\_zm_audio::zmbvoxinitspeaker( "player", "vox_plr_", self );
@@ -38,7 +38,7 @@ set_character_option()
             break;
             case 3:
                 self setmodel( "c_zom_player_reporter_fb" );
-                self.voice = "american";
+                self.voice = "reporter";
                 self.skeleton = "base";
                 self setviewmodel( "c_zom_reporter_viewhands" );
                 level.vox maps\mp\zombies\_zm_audio::zmbvoxinitspeaker( "player", "vox_plr_", self );
@@ -49,7 +49,7 @@ set_character_option()
             break;
             case 4:
                 self setmodel( "c_zom_player_engineer_fb" );
-                self.voice = "american";
+                self.voice = "engineer";
                 self.skeleton = "base";
                 self setviewmodel( "c_zom_engineer_viewhands" );
                 level.vox maps\mp\zombies\_zm_audio::zmbvoxinitspeaker( "player", "vox_plr_", self );
@@ -66,14 +66,14 @@ set_character_option()
         {
             case 1:
                 self setmodel("c_zom_player_cdc_fb");
-                self setviewmodel("c_zom_suit_viewhands");
+                self setviewmodel("c_zom_cdc_viewhands");
                 self.voice = "american";
                 self.skeleton = "base";
                 self set_player_is_female( 0 );
             break;
             case 2:
                 self setmodel("c_zom_player_cdc_fb");
-                self setviewmodel("c_zom_suit_viewhands");
+                self setviewmodel("c_zom_cdc_viewhands");
                 self.voice = "american";
                 self.skeleton = "base";
                 self set_player_is_female( 0 );
@@ -87,7 +87,7 @@ set_character_option()
             case 1:
                 self setmodel( "c_zom_player_farmgirl_dlc1_fb" );
                 self.whos_who_shader = "c_zom_player_farmgirl_dlc1_fb";
-                self.voice = "american";
+                self.voice = "farmgirl";
                 self.skeleton = "base";
                 self setviewmodel( "c_zom_farmgirl_viewhands" );
                 level.vox zmbvoxinitspeaker( "player", "vox_plr_", self );
@@ -99,7 +99,7 @@ set_character_option()
             case 2:
                 self setmodel( "c_zom_player_oldman_dlc1_fb" );
                 self.whos_who_shader = "c_zom_player_oldman_dlc1_fb";
-                self.voice = "american";
+                self.voice = "oldman";
                 self.skeleton = "base";
                 self setviewmodel( "c_zom_oldman_viewhands" );
                 level.vox zmbvoxinitspeaker( "player", "vox_plr_", self );
@@ -111,7 +111,7 @@ set_character_option()
             case 3:
                 self setmodel( "c_zom_player_reporter_dlc1_fb" );
                 self.whos_who_shader = "c_zom_player_reporter_dlc1_fb";
-                self.voice = "american";
+                self.voice = "reporter";
                 self.skeleton = "base";
                 self setviewmodel( "c_zom_reporter_viewhands" );
                 level.vox zmbvoxinitspeaker( "player", "vox_plr_", self );
@@ -124,7 +124,7 @@ set_character_option()
             case 4:
                 self setmodel( "c_zom_player_engineer_dlc1_fb" );
                 self.whos_who_shader = "c_zom_player_engineer_dlc1_fb";
-                self.voice = "american";
+                self.voice = "engineer";
                 self.skeleton = "base";
                 self setviewmodel( "c_zom_engineer_viewhands" );
                 level.vox zmbvoxinitspeaker( "player", "vox_plr_", self );
@@ -141,7 +141,7 @@ set_character_option()
         {
             case 1:
                 self setmodel( "c_zom_player_arlington_fb" );
-                self.voice = "american";
+                self.voice = "arlington";
                 self.skeleton = "base";
                 self setviewmodel( "c_zom_arlington_coat_viewhands" );
                 level.vox maps\mp\zombies\_zm_audio::zmbvoxinitspeaker( "player", "vox_plr_", self );
@@ -151,7 +151,7 @@ set_character_option()
             break;
             case 2:
                 self setmodel( "c_zom_player_oleary_fb" );
-                self.voice = "american";
+                self.voice = "oleary";
                 self.skeleton = "base";
                 self setviewmodel( "c_zom_oleary_shortsleeve_viewhands" );
                 level.vox maps\mp\zombies\_zm_audio::zmbvoxinitspeaker( "player", "vox_plr_", self );
@@ -161,7 +161,7 @@ set_character_option()
             break;
             case 3:
                 self setmodel( "c_zom_player_deluca_fb" );
-                self.voice = "american";
+                self.voice = "deluca";
                 self.skeleton = "base";
                 self setviewmodel( "c_zom_deluca_longsleeve_viewhands" );
                 level.vox maps\mp\zombies\_zm_audio::zmbvoxinitspeaker( "player", "vox_plr_", self );
@@ -171,7 +171,7 @@ set_character_option()
             break;
             case 4:
                 self setmodel( "c_zom_player_handsome_fb" );
-                self.voice = "american";
+                self.voice = "handsome";
                 self.skeleton = "base";
                 self setviewmodel( "c_zom_handsome_sleeveless_viewhands" );
                 level.vox maps\mp\zombies\_zm_audio::zmbvoxinitspeaker( "player", "vox_plr_", self );
@@ -198,7 +198,7 @@ set_character_option()
         case 1:
             self setmodel( "c_zom_player_farmgirl_fb" );
             self setviewmodel( "c_zom_farmgirl_viewhands" );
-            self.voice = "american";
+            self.voice = "farmgirl";
             self.skeleton = "base";
             self setviewmodel( "c_zom_farmgirl_viewhands" );
             level.vox zmbvoxinitspeaker( "player", "vox_plr_", self );
@@ -209,7 +209,7 @@ set_character_option()
             break;
         case 2:
             self setmodel( "c_zom_player_oldman_fb" );
-            self.voice = "american";
+            self.voice = "oldman";
             self.skeleton = "base";
             self setviewmodel( "c_zom_oldman_viewhands" );
             level.vox zmbvoxinitspeaker( "player", "vox_plr_", self );
@@ -220,7 +220,7 @@ set_character_option()
             break;
         case 3:
             self setmodel( "c_zom_player_reporter_fb" );
-            self.voice = "american";
+            self.voice = "reporter";
             self.skeleton = "base";
             self setviewmodel( "c_zom_reporter_viewhands" );
             level.vox zmbvoxinitspeaker( "player", "vox_plr_", self );
@@ -232,7 +232,7 @@ set_character_option()
             break;
         case 4:
             self setmodel( "c_zom_player_engineer_fb" );
-            self.voice = "american";
+            self.voice = "engineer";
             self.skeleton = "base";
             self setviewmodel( "c_zom_engineer_viewhands" );
             level.vox zmbvoxinitspeaker( "player", "vox_plr_", self );
@@ -257,7 +257,7 @@ set_character_option()
         {
             case 1:
                 self setmodel( "c_zom_tomb_richtofen_fb" );
-                self.voice = "american";
+                self.voice = "richtofen";
                 self.skeleton = "base";
                 self setviewmodel( "c_zom_richtofen_viewhands" );
                 level.vox maps\mp\zombies\_zm_audio::zmbvoxinitspeaker( "player", "vox_plr_", self );
@@ -266,7 +266,7 @@ set_character_option()
             break;
             case 2:
                 self setmodel( "c_zom_tomb_dempsey_fb" );
-                self.voice = "american";
+                self.voice = "dempsey";
                 self.skeleton = "base";
                 self setviewmodel( "c_zom_dempsey_viewhands" );
                 level.vox maps\mp\zombies\_zm_audio::zmbvoxinitspeaker( "player", "vox_plr_", self );
@@ -275,7 +275,7 @@ set_character_option()
             break;
             case 3:
                 self setmodel( "c_zom_tomb_nikolai_fb" );
-                self.voice = "russian";
+                self.voice = "nikolai";
                 self.skeleton = "base";
                 self setviewmodel( "c_zom_nikolai_viewhands" );
                 level.vox maps\mp\zombies\_zm_audio::zmbvoxinitspeaker( "player", "vox_plr_", self );
@@ -284,7 +284,7 @@ set_character_option()
             break;
             case 4:
                 self setmodel( "c_zom_tomb_takeo_fb" );
-                self.voice = "american";
+                self.voice = "takeo";
                 self.skeleton = "base";
                 self setviewmodel( "c_zom_takeo_viewhands" );
                 level.vox maps\mp\zombies\_zm_audio::zmbvoxinitspeaker( "player", "vox_plr_", self );
